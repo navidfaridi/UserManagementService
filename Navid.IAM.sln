@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7AE196EE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navid.IAM.CoreTests", "tests\Navid.IAM.CoreTests\Navid.IAM.CoreTests.csproj", "{97661F41-3255-4CB0-8CAE-43F34DA8FA01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navid.IAM.Application", "src\Navid.IAM.Application\Navid.IAM.Application.csproj", "{43731213-FF10-45CC-9995-B8CDD5FF4967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navid.IAM.Infrastructure", "src\Navid.IAM.Infrastructure\Navid.IAM.Infrastructure.csproj", "{E5F4EE44-FEAC-49C5-A30A-E2A870F875E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,14 @@ Global
 		{97661F41-3255-4CB0-8CAE-43F34DA8FA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97661F41-3255-4CB0-8CAE-43F34DA8FA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97661F41-3255-4CB0-8CAE-43F34DA8FA01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43731213-FF10-45CC-9995-B8CDD5FF4967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43731213-FF10-45CC-9995-B8CDD5FF4967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43731213-FF10-45CC-9995-B8CDD5FF4967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43731213-FF10-45CC-9995-B8CDD5FF4967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F4EE44-FEAC-49C5-A30A-E2A870F875E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F4EE44-FEAC-49C5-A30A-E2A870F875E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F4EE44-FEAC-49C5-A30A-E2A870F875E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F4EE44-FEAC-49C5-A30A-E2A870F875E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +65,8 @@ Global
 		{B49EEE61-5C54-44B1-ABF3-5BB9737AFF90} = {2DE2DFA4-82C4-4BCD-9E43-4BEC294AD393}
 		{CFB3F406-3C11-4172-B890-64EE2AC57654} = {2DE2DFA4-82C4-4BCD-9E43-4BEC294AD393}
 		{97661F41-3255-4CB0-8CAE-43F34DA8FA01} = {7AE196EE-D6B9-462B-9ACE-DF3A221365FB}
+		{43731213-FF10-45CC-9995-B8CDD5FF4967} = {2DE2DFA4-82C4-4BCD-9E43-4BEC294AD393}
+		{E5F4EE44-FEAC-49C5-A30A-E2A870F875E3} = {2DE2DFA4-82C4-4BCD-9E43-4BEC294AD393}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3FAF774F-A34B-41D8-9620-8C30F0D9A0ED}
