@@ -1,0 +1,6 @@
+@Navid.IAM.API_HostAddress = http://localhost:5295
+
+GET {{Navid.IAM.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
