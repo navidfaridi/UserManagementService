@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Navid.IAM.API</name>
+    </assembly>
+    <members>
+        <member name="T:Navid.IAM.API.Controllers.v1.AccountController">
+            <summary>
+            Account Controller
+            </summary>
+        </member>
+        <member name="M:Navid.IAM.API.Controllers.v1.AccountController.GenerateRandomPassword(System.Int32)">
+            <summary>
+            Generate Random Password 
+            </summary>
+            <param name="passwordLength"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
